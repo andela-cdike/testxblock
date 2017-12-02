@@ -7,5 +7,5 @@ app_name = 'testxblock'
 
 
 urlpatterns = [
-    url(r'^testxblock$', TestView.as_view(), name='test_view'),
+    url(r'^testxblock/', TestView.as_view(), name='test_view'),
 ]
