@@ -3,7 +3,7 @@ from django.conf.urls import url
 from .views import TestView
 
 
-# app_name = 'gk_api_testxblock'
+app_name = 'testxblock'
 
 
 urlpatterns = [

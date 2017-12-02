@@ -4,4 +4,4 @@ from rest_framework.response import Response
 
 class TestView(APIView):
     def get(self, request, format=None):
-        return Response('Hello World')
+        return Response('Hello World', status=200)
