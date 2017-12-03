@@ -1,11 +1,11 @@
 from django.conf.urls import url
 
-from .views import TestView
+from .views import QuoteView
 
 
 app_name = 'testxblock'
 
 
 urlpatterns = [
-    url(r'^testxblock/', TestView.as_view(), name='test_view'),
+    url(r'^quotes/', QuoteView.as_view(), name='quote_view'),
 ]
